@@ -1,0 +1,23 @@
+config zigbee cc2530
+
+zigbee_receive:
+baudrate : 115200
+channel : 16
+mode : point A to point A
+
+zigbee trans:
+baudrate : 115200
+channel : 16
+mode point B to point B
+
+cách cắm Arduino voi module:
+module truyen:
+pin 9 Arduino gan voi rx zigbee
+pin 8 Arduino gan voi tx zigbee
+pin 4 Arduino gan voi out dhtt11
+
+module nhan:
+pin 9 Arduino gan voi rx zigbee
+pin 8 Arduino gan voi tx zigbee
+pin sda Arduino gan voi sda lcd
+pin scl Arduino gan voi scl lcd
